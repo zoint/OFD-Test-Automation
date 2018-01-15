@@ -29,7 +29,17 @@ $ pip install -r requirements.txt
 
 ## Running the tests
 
-TODO: Fill this out later. Explain how to run the automated tests for this system
+Change line 21 in `OFD\TestAutomation\UnitTests\GoogleTests.py` to reflect the path on disk you've downloaded the repository to, for me this is C:\git\..
+
+We will change this to a cleaner method later.
+```
+self.browser = webdriver.Chrome('C:\git\OFD\TestAutomation\Drivers\chromedriver.exe')
+```
+
+Open command prompt and run the following command. You need be able to [run python from the PATH](https://docs.python.org/3/using/windows.html#configuring-python) for this to work.
+```
+python c:/git/OFD/TestAutomation/UnitTests/GoogleTests.py
+```
 
 ### Break down into end to end tests
 
