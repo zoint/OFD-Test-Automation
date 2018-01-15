@@ -54,28 +54,28 @@ class GoogleTestCase(unittest.TestCase):
 
 # Run the test case
 if __name__ == '__main__':
-    fooSuite = unittest.TestLoader().loadTestsFromTestCase(GoogleTestCase)
+    googleSuite = unittest.TestLoader().loadTestsFromTestCase(GoogleTestCase)
 
-    fooRunner = unittest.TextTestRunner()
-    fooResult = fooRunner.run(fooSuite)
+    googleRunner = unittest.TextTestRunner()
+    googleResult = googleRunner.run(googleSuite)
 
     print
     print "---- START OF TEST RESULTS"
-    print fooResult
+    print googleResult
     print
     print "fooResult::errors"
-    print fooResult.errors
+    print googleResult.errors
     print
     print "fooResult::failures"
-    print fooResult.failures
+    print googleResult.failures
     print
     print "fooResult::skipped"
-    print fooResult.skipped
+    print googleResult.skipped
     print
     print "fooResult::successful"
-    print fooResult.wasSuccessful()
+    print googleResult.wasSuccessful()
     print
     print "fooResult::test-run"
-    print fooResult.testsRun
+    print googleResult.testsRun
     print "---- END OF TEST RESULTS"
     print
