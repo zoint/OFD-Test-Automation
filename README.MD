@@ -1,8 +1,6 @@
-# Project Title
+# OFD Automation Tests - UNO Spring 2018 Capstone 
 
-One Paragraph of project description goes here
-
-Welcome to the University of Nebraska Omaha's MS in Management Information Systems Spring 2018 section 2 Capsone project. This repository is used to house our automated unit test framework developed for their Incident Tracking system. 
+Welcome to the University of Nebraska Omaha's MS in Management Information Systems Spring 2018 section 2 Capsone project. This repository is used to house our automated unit test framework developed for the Omaha Fire Department's, or OFD's, Incident Tracking system. 
 
 ## Getting Started
 
@@ -10,21 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Install [python](https://www.python.org/downloads/release/python-363/) on your local machine.
 
 ```
-Give examples
+[python 3.6.3](https://www.python.org/downloads/release/python-363/)
 ```
 
 ### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Install python on your local machine.
-
-```
-python 3.6.3(https://www.python.org/downloads/release/python-363/)
-```
 
 Download the git repository and install the requirements 
 
@@ -58,7 +48,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Joshua SHapland** - *Initial work* - [jmshapland](https://github.com/zoint)
+* **Joshua Shapland** - *Initial work* - [jmshapland](https://github.com/zoint)
 
 ## License
 
