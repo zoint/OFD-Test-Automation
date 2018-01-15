@@ -6,9 +6,14 @@ Welcome to the University of Nebraska Omaha's MS in Management Information Syste
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
+If you are brand new to GitHub I recommend checking  the following: 
+* [GitHub Guide's Hello World example](https://guides.github.com/activities/hello-world/)
+* [How to Clone a repository](https://help.github.com/articles/cloning-a-repository/)
+
 ### Prerequisites
 
-Install [python](https://www.python.org/downloads/release/python-363/) on your local machine.
+* Install [python](https://www.python.org/downloads/release/python-363/) on your local machine
+* [Python 3 Installation Guides](http://docs.python-guide.org/en/latest/starting/installation/)
 
 ```
 [python 3.6.3](https://www.python.org/downloads/release/python-363/)
